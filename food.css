@@ -1,0 +1,435 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: static;
+    overflow-x: hidden;
+}
+header{
+    background: ffffff;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 370px;
+    margin-top: 20px;
+    justify-content: space-between; 
+    justify-content: space-around;
+    gap: 70px;
+}
+ul li{
+    display: inline;   
+
+    /* padding: 20px; */
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-family: "Manrope", sans-serif; 
+    font-weight: bolder;
+}
+.signing {
+    text-align: right;
+    margin-left:390px;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+    background: rgb(56, 126, 99);
+    height: 30px;
+    color: ffffff;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 2;
+    vertical-align: middle;
+    
+}
+
+.logo {
+    font-size: 10px;
+    margin-left: -7px;
+    margin-top: 18px;
+    font-family:sans-serif;
+
+}
+
+.tittle{
+    font-size: 35px;
+    font-weight:900;
+    color: black;
+    margin-left: 80px;
+    margin-top: 120px;
+    font-family:sans-serif; 
+    line-height: 40px;
+}
+.content{
+    margin-left: 90px;
+    margin-top: 30px;
+    font-family: "Manrope", sans-serif; 
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.cloud{
+    position: relative;
+    z-index: 1;
+    margin-left: 130px;
+    margin-top: -40px;
+}
+.farmers{
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 180px;
+    z-index: 2;
+}
+.Learn{
+    vertical-align: middle;
+    height: 35px;
+    width: 110px;
+    justify-content: center;
+    background-color: rgb(56, 126, 99);
+    border-radius: 50px;
+    margin-left: 87px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+    border-color: rgb(56, 126, 99);
+    font-weight: bolder;
+    font-style: italic;
+}
+#icon{
+ position: absolute;
+ z-index: 2;
+ margin-top: 28px;
+ margin-left: -26px;
+}
+.about{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 110px;
+    font-family: "Manrope", sans-serif; 
+    font-weight: bolder;
+}
+.fruits p{
+text-align: right;
+text-align: justify;
+margin-top: 150px;
+margin-left: 840px;
+font-family: "Manrope", sans-serif; 
+letter-spacing: 1px;
+word-spacing: 2px;
+position: absolute;
+z-index: 2;
+}
+.fruits h1{
+    margin-left:835px;
+    margin-bottom: -130px;
+    margin-top: 220px;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+}
+.fruits img{
+    z-index: 1;
+    position: relative;
+    margin-left: 240px;
+    margin-top: -35px;
+}
+.inline{
+    display: flex;
+}
+.fruits1 h1{
+    margin-left:240px;
+    margin-bottom: -130px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+}
+.fruits1 p{
+    text-align: justify;
+    margin-top: 150px;
+    margin-left: 240px;
+    font-family: "Manrope", sans-serif; 
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.fruits1 img{
+    position: relative;
+    height: 230px;
+    width:230px ;
+    margin-left: 890px;
+    margin-top: -190px;
+}
+.products p{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 110px;
+    font-family: "Manrope", sans-serif; 
+    font-weight: bolder;
+}
+.products h1{
+    margin-bottom: -130px;
+    margin-top: 1%;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Manrope", sans-serif;
+}
+.featured{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+/* .swiper{
+    width: 17%;
+    align-items: center;
+    height:400px;
+    margin-left: 600px;
+    margin-top: 200px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+
+} */
+.swiper{
+    width: 750px;
+    height: 385px;
+    margin-left: 400px;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.swiper h2{
+font-size: 1.2rem;
+color: black;
+display: flex;
+font-family: 'Manrope',sans-serif;
+}
+.swiper-slide{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    border-radius: 10px;
+    background:#296f2b;
+    box-shadow: 4px 4px 4px var(--header);
+
+}
+.swiper-slide::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 2;
+    clip-path: circle(45% at 50% 0%);
+    background: radial-gradient(50% 100%,#84ccf5,#84c0f5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 66;
+}
+
+.swiper-slide img{
+    width: 150px;
+    z-index: 100;
+    margin-bottom: 400px;
+}
+.swiper-slide p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Manrope',sans-serif;
+}
+sub{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.swiper-slide #good{
+    position:absolute;
+    margin-bottom: 600px;
+    cursor: pointer;
+    z-index:99;
+    margin-left: 170px;
+}
+.swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #070707;
+    opacity: 0.5;
+    bottom: 130px;
+}
+.meet p{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 70px;
+    font-family: "Manrope", sans-serif; 
+    font-weight: bolder;
+}
+/* #special{
+    border% 35%/43% 39% 61% 57%;-radius: 30% 70% 65
+} */
+.leaders{
+    border-radius: 35%/43% 39% 61% 57% 30% 70% 65%;
+    margin-left: 80px;
+    display: flex;
+    gap: 90px;
+}
+.leaders img{
+    height: 150px;
+    margin-left: 100px;
+    width: 150px;
+    margin-top: 40px;
+
+}
+.leaders h1{
+ font-size: 100;
+}
+.logo1{
+
+    font-size: 10px;
+    margin-left: 130px;
+    margin-top: -48px;
+    margin-bottom: 40px;
+    font-family:sans-serif;
+}
+footer{
+    display: flex;
+}
+
+@media screen and (max-width:380px){
+    body{width: 100%;
+        position: static;
+        overflow-x: hidden; }
+
+}
+@media screen and (max-width:380px){
+    
+.tittle{
+    font-size: 35px;
+    font-weight:900;
+    color: black;
+    width: 800px;
+    margin-left: 80px;
+    margin-top: 120px;
+    font-family:sans-serif; 
+    line-height: 40px;
+}
+.content{
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 800px;
+    font-family: "Manrope", sans-serif; 
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.fruits p{
+    text-align: right;
+    text-align: justify;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 840px;
+    font-family: "Manrope", sans-serif; 
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    position: absolute;
+    z-index: 2;
+    }
+    .fruits h1{
+        margin-left:835px;
+        margin-bottom: -130px;
+        margin-top: 220px;
+        font-size: 20px;
+        font-family: "Manrope", sans-serif;
+    }
+    .fruits img{
+        z-index: 1;
+        position: relative;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .about{
+        font-size: 25px;
+        text-align: center;
+        margin-left: 700px;
+        font-style: italic;
+        margin-top: 110px;
+        font-family: "Manrope", sans-serif; 
+        font-weight: bolder;
+    }
+    .fruits1 h1{
+        margin-left:240px;
+        margin-bottom: -130px;
+        margin-top: 60px;
+        font-size: 20px;
+        font-family: "Manrope", sans-serif;
+    }
+    .fruits1 p{
+        text-align: justify;
+        margin-top: 150px;
+        margin-left: 240px;
+        font-family: "Manrope", sans-serif; 
+        letter-spacing: 1px;
+        width: 800px;
+        word-spacing: 2px;
+    }
+    .fruits1 img{
+        position: relative;
+        height: 230px;
+        width:230px ;
+        margin-left: 890px;
+        margin-top: -190px;
+    }
+    .meet p{
+        margin-left: 600px;
+        width: 900px;
+        font-size: 25px;
+        text-align: center;
+        font-style: italic;
+        margin-top: 70px;
+        margin-left: 300px;
+        font-family: "Manrope", sans-serif; 
+        font-weight: bolder;
+    }
+    .products p{
+        font-size: 25px;
+        text-align: center;
+        margin-left: 600px;
+        width: 400px;
+        font-style: italic;
+        margin-top: 110px;
+        font-family: "Manrope", sans-serif; 
+        font-weight: bolder;
+    }
+    .products h1{
+        margin-bottom: -130px;
+        margin-top: 1%;
+        margin-left: 600px;
+        width: 400px;
+        text-align: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 100;
+        font-family: "Manrope", sans-serif;
+    }
+}
+
